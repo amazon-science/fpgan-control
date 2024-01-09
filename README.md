@@ -3,7 +3,9 @@
 <center><img src="images/animation.gif"></center>
 
 This is a PyTorch implementation of the following paper:
+
 **FPGAN-Control: A Controllable Fingerprint Generator for Training with Synthetic Data**, WACV 2024, [[paper]](https://arxiv.org/abs/2310.19024) [[project page]](https://alonshoshan10.github.io/fpgan_control/).
+
 Alon Shoshan, Nadav Bhonker, Emanuel Ben Baruch, Ori Nizan, Igor Kviatkovsky, Joshua Engelsma, Manoj Aggarwal and Gerard Medioni.
 
 ## Abstract
@@ -36,6 +38,20 @@ Accuracy vs. number of synthetic identities used during training:
 Real data corresponds to training the model with the real dataset only, 
 while the rest of the models were trained purely on synthetic identities.
 
+
+## Inference
+Download the [trained GAN](todo) and save it in `models`.
+
+Run:
+```
+python generate_random_ids.py
+--model_dir models/id06fre20_fingers384_id_noise_same_id_idl005_posel000_large_pose_20230606-082209
+--save_path <path for saving the results>
+--number_of_ids <number of fingers to generate>
+--number_images_per_id <number of images with different appearance to generate per finger>
+```
+
+
 ## Citation
 Please consider citing our work if you find it useful for your research:
 ```
@@ -49,6 +65,8 @@ Please consider citing our work if you find it useful for your research:
 }
 ```
 
+## Acknowledgments
+This code is heavily borrowed from [Rosinality: StyleGAN 2 in PyTorch](https://github.com/rosinality/stylegan2-pytorch).
 
 
 ## Security
