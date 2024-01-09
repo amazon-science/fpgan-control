@@ -14,7 +14,7 @@ Training fingerprint recognition models using synthetic data has recently gained
 <br>
 <br>
 
-<img height="280" id="pipeline" src="images/pipeline.png">
+<img id="pipeline" src="images/pipeline.png">
 In each training batch (a), both same ID pairs and same appearance pairs are
 generated. Same ID pairs have the same ID latent vector while same appearance pairs have the same appearance latent vector. The color of
 the inner image border corresponds to the fingerprint ID and the color of the outer border corresponds to the fingerprint appearance. Each
