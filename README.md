@@ -40,7 +40,7 @@ while the rest of the models were trained purely on synthetic identities.
 
 
 ## Inference
-Download the [trained GAN](todo) and save it in `models`.
+Download the [trained GAN](https://1drv.ms/u/s!ArMf0NJWksTfiyJN7O70ezn7YAkJ?e=pl2WIA) and save it in `models`.
 
 Run:
 ```
