@@ -1,6 +1,10 @@
-## My Project
+# FPGAN-Control: A Controllable Fingerprint Generator for Training with Synthetic Data
 
-TODO: Fill this README out!
+<img src="images/animation.gif">
+
+**FPGAN-Control: A Controllable Fingerprint Generator for Training with Synthetic Data**, WACV 2024, [[paper]](https://arxiv.org/abs/2310.19024) [[project page]](https://alonshoshan10.github.io/fpgan_control/).
+
+Alon Shoshan, Nadav Bhonker, Emanuel Ben Baruch, Ori Nizan, Igor Kviatkovsky, Joshua Engelsma, Manoj Aggarwal and Gerard Medioni.
 
 Be sure to:
 
@@ -14,5 +18,5 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 
 ## License
 
-This library is licensed under the LICENSE NAME HERE License.
+This library is licensed under the Attribution-NonCommercial 4.0 International License.
 
